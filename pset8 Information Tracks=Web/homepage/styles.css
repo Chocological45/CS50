@@ -1,0 +1,122 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    /*color: #f5f6f7;*/
+    color: #777
+}
+
+body, html{
+    height: 100%;
+}
+
+p {
+    font-size: 16px;
+
+}
+
+.margin {
+    margin-bottom: 45px;
+
+}
+
+.bg-1 {
+    background-color: #00cc00; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.container {
+    width : 100%;
+    padding-left : 15px;
+    padding-right: 15px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url('/pset8/homepage/Images/LeavesBackground.jpg');
+    min-height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.card-body {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button-box {
+   text-align:center;
+   margin-top:20px;
+}

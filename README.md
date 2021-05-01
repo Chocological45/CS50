@@ -1,4 +1,2 @@
-# CS50-HarvardX
-HarvardX CS50 programs
-
-This repo contains both CS50 Introduction to Computer Science and CS50 Introduction to Artificial Intelligence
+# CS50-Introduction to Computer Science
+HarvardX CS50 Introduction to Computer Science Problem sets and Final Project

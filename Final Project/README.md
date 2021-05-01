@@ -37,5 +37,6 @@ Makes a core object with height, width, x/y position, and x/y speed properties. 
 ## Fonts used
 https://www.fontsquirrel.com/fonts/silkscreen
 
-## Libraries used
+## Tools used
+https://love2d.org/
 https://github.com/rxi/classic.git
